@@ -1,0 +1,42 @@
+[
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": "about one third that of the FG material",
+            "Young Modulus": null,
+            "Grain Size": "4.4 lm (Fine Grain), 50 lm (Medium Grain), 155 lm (Coarse Grain)"
+        },
+        "Additional Information": "At temperatures up to 873 K, a strong increase in yield strength is observed with decreasing grain size. At 1073 K, the FG material experiences a significant drop in yield and ultimate tensile strength compared to MG and CG materials."
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": "not explicitly mentioned, but maximum tensile strength reached at 1073 K",
+            "Yield Strength": "small load drops after yielding were observed at 293 and 473 K",
+            "Young Modulus": null,
+            "Grain Size": "fine grain (FG), medium grain (MG), coarse grain (CG)"
+        },
+        "Additional Information": "At higher temperatures, especially 1073 K, the FG material shows unique behavior such as a sharp yield point followed by a small load drop and reaches its maximum tensile strength quickly but fails later at high engineering strain. This is only observed for the FG material tested at 1073 K."
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": [
+                null,
+                "temperature-independent",
+                "temperature-dependent"
+            ],
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "In pure fcc metals, thermal contribution (rth) is usually negligible. However, it can be significant in binary fcc solid solutions, particularly those with Cu as the solvent. The critical temperature (Tc) shifts to higher temperatures with increasing solute concentrations."
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "Alloy": "Al",
+        "Properties": {
+            "some key": "some value"
+        },
+        "source": "source1",
+        "chunk_id": 1
+    }
+]
