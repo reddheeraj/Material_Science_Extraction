@@ -2,3 +2,4 @@ chromadb==0.5.23
 langchain==0.3.11
 langchain-ollama==0.2.1
 langchain-text-splitters==0.3.2
+streamlit==1.41.1

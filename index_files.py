@@ -63,6 +63,7 @@ def append_to_database(queue, use_cuda=False):
     embedding_model = get_embeddings()
     db = ChromaDBConnection(path=DB_PATH)
     collection = db.get_collection(COLLECTION_NAME, metadata={"hnsw:space": HNSW_SPACE})
+    logger.info("Collection size: %d", collection.count())
         # device = "cuda" if use_cuda else "cpu"
     try:    
         while True:

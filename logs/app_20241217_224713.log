@@ -1,0 +1,312 @@
+2024-12-17 22:47:17,114 - INFO - index_files - Starting PDF file processing...
+2024-12-17 22:47:17,115 - INFO - index_files - Processing file: Deep_Neural_Network.pdf
+2024-12-17 22:47:17,127 - INFO - LLM - Loading embedding model...
+2024-12-17 22:47:17,554 - INFO - db_connection - Creating new ChromaDB connection...
+2024-12-17 22:47:17,607 - INFO - posthog - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-17 22:47:17,851 - INFO - db_connection - Accessing collection: Case1
+2024-12-17 22:47:19,209 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:47:19,209 - INFO - index_files - Processing file: Influences_of_temp_and_microstructure.pdf
+2024-12-17 22:47:19,653 - INFO - index_files - Processing file: Prep_and_Effect_of_Vanadium.pdf
+2024-12-17 22:47:20,033 - INFO - index_files - Processing file: Vacuum_arc_melted_and_heat_treated_AlCoCrFeNiTiX_based_high-entropy.pdf
+2024-12-17 22:47:20,198 - WARNING - _utils -  impossible to decode XFormObject /I3
+2024-12-17 22:47:20,405 - WARNING - _utils -  impossible to decode XFormObject /I5
+2024-12-17 22:47:20,408 - WARNING - _utils -  impossible to decode XFormObject /I6
+2024-12-17 22:47:20,414 - WARNING - _utils -  impossible to decode XFormObject /I7
+2024-12-17 22:47:20,981 - INFO - index_files - File processing complete.
+2024-12-17 22:47:21,100 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:21,885 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:22,662 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:23,511 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:24,179 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:24,830 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:25,375 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:25,780 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:26,258 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:26,758 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:27,066 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:47:27,067 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:47:27,573 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:28,055 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:28,474 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:28,947 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:29,419 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:29,858 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:30,253 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:32,056 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:32,625 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:33,068 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:33,092 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:47:33,092 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:47:33,241 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:34,677 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:35,113 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:35,613 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:36,111 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:36,520 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:36,904 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:37,308 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:38,836 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:40,401 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:40,425 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:47:40,426 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:47:40,842 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:41,089 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:42,828 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:43,303 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:43,858 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:45,418 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:45,749 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:45,977 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:46,337 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:46,772 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:46,819 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:47:46,819 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:47:47,293 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:47,629 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:48,086 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:49,669 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:50,121 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:51,745 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:53,141 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:54,769 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:56,257 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:56,720 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:56,742 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:47:56,742 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:47:57,194 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:57,665 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:58,143 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:59,419 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:47:59,601 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:00,079 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:00,678 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:01,480 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:02,187 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:02,782 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:02,811 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:48:02,811 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:48:03,318 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:04,147 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:04,932 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:05,584 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:06,261 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:07,028 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:07,832 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:08,627 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:09,425 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:10,028 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:10,057 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:48:10,057 - INFO - index_files - Processing batch of 4 documents.
+2024-12-17 22:48:10,500 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:10,607 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:11,029 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:11,172 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:11,192 - INFO - index_files - Indexed batch with 4 documents.
+2024-12-17 22:48:11,193 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:48:11,830 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:12,357 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:12,774 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:13,275 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:13,767 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:14,286 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:14,791 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:15,264 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:15,852 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:16,469 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:16,492 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:48:16,493 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:48:17,089 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:17,597 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:18,259 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:18,858 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:19,552 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:20,152 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:20,738 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:21,333 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:21,972 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:22,694 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:22,724 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:48:22,725 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:48:23,372 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:23,905 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:24,544 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:25,196 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:25,775 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:26,351 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:27,113 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:27,841 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:28,227 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:28,929 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:28,957 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:48:28,958 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:48:29,569 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:30,255 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:31,585 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:32,241 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:32,876 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:33,450 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:34,050 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:34,533 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:35,134 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:35,751 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:35,792 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:48:35,792 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:48:35,880 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:36,449 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:37,046 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:38,846 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:40,559 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:41,078 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:41,667 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:42,200 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:42,466 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:43,100 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:43,125 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:48:43,125 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:48:43,640 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:44,156 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:44,866 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:45,540 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:46,199 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:47,928 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:48,527 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:49,365 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:49,846 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:50,457 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:50,487 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:48:50,488 - INFO - index_files - Processing batch of 6 documents.
+2024-12-17 22:48:51,438 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:51,927 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:52,815 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:53,969 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:57,287 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:58,889 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:58,908 - INFO - index_files - Indexed batch with 6 documents.
+2024-12-17 22:48:58,908 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:48:59,459 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:48:59,954 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:00,639 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:01,144 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:01,718 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:02,239 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:02,767 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:03,268 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:04,748 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:05,191 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:05,215 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:49:05,216 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:49:06,000 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:06,125 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:08,086 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:09,693 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:09,843 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:10,416 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:10,946 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:12,911 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:14,743 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:16,484 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:16,511 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:49:16,512 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:49:17,074 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:17,811 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:20,533 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:20,682 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:21,165 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:21,678 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:22,214 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:22,550 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:24,220 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:25,521 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:25,563 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:49:25,564 - INFO - index_files - Processing batch of 8 documents.
+2024-12-17 22:49:27,382 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:28,045 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:29,103 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:30,635 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:31,565 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:32,369 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:33,341 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:33,462 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:33,492 - INFO - index_files - Indexed batch with 8 documents.
+2024-12-17 22:49:33,493 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:49:34,302 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:35,016 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:37,336 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:37,873 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:38,476 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:39,011 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:40,941 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:41,557 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:42,169 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:42,866 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:42,890 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:49:42,890 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:49:43,619 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:44,351 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:45,012 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:45,713 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:46,480 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:46,696 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:47,469 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:48,411 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:49,190 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:49,313 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:49,338 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:49:49,339 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:49:49,910 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:50,641 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:51,329 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:52,080 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:54,207 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:54,790 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:55,446 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:57,697 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:49:58,129 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:00,344 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:00,373 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:50:00,374 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:50:00,654 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:01,237 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:01,944 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:04,129 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:04,821 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:05,133 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:05,807 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:06,446 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:07,266 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:07,461 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:07,492 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:50:07,493 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:50:08,123 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:08,788 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:09,532 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:09,916 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:10,624 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:11,318 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:11,934 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:12,625 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:13,128 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:13,694 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:13,721 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:50:13,721 - INFO - index_files - Processing batch of 10 documents.
+2024-12-17 22:50:14,580 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:15,711 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:16,656 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:19,946 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:22,492 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:23,553 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:24,649 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:26,148 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:27,482 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:28,674 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:28,714 - INFO - index_files - Indexed batch with 10 documents.
+2024-12-17 22:50:28,715 - INFO - index_files - Processing batch of 7 documents.
+2024-12-17 22:50:30,168 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:31,260 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:32,245 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:35,648 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:36,931 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:40,152 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:40,513 - INFO - _client - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2024-12-17 22:50:40,541 - INFO - index_files - Indexed batch with 7 documents.
+2024-12-17 22:50:40,542 - INFO - index_files - Received stop signal.
