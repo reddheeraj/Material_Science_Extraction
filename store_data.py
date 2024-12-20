@@ -1,6 +1,7 @@
 import json
 import re
 from logger import logger
+import pandas as pd
 
 def consolidate_to_json(results, json_file_path):
     """
@@ -18,7 +19,7 @@ def consolidate_to_json(results, json_file_path):
             "source": response['source'],
             "chunk_id": response['chunk_id']
         }
-        response_text = response['properties']
+        response_text = response['Properties']
         try:
             # Isolate the JSON part (handle responses with extra text)
             json_match = re.search(r"\{.*\}", response_text, re.DOTALL)
@@ -43,3 +44,27 @@ def consolidate_to_json(results, json_file_path):
 
         print(f"Consolidated data saved to {json_file_path}")
         logger.info(f"Data saved to {json_file_path}")
+    
+    return consolidated_data
+
+def display_results(results):
+    flattened_data = []
+    print(results[0])
+    for data in results:
+        row = {
+            "Source": data["source"],
+            "Chunk ID": data["chunk_id"],
+            "Alloy": data["Alloy"],
+            "Hardness": data["Properties"]["Hardness"],
+            "Vickers Hardness": data["Properties"]["Vickers Hardness"],
+            "Ultimate Tensile Strength": data["Properties"]["Ultimate Tensile Strength"],
+            "Yield Strength": data["Properties"]["Yield Strength"],
+            "Young Modulus": data["Properties"]["Young Modulus"],
+            "Grain Size": data["Properties"]["Grain Size"],
+            "Additional Information": data["Additional Information"]
+        }
+        flattened_data.append(row)
+
+    # Convert to DataFrame
+    df = pd.DataFrame(flattened_data)
+    return df

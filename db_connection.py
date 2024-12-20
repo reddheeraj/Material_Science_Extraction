@@ -1,6 +1,7 @@
 # Singleton class to manage connection to ChromaDB
 import chromadb
 from logger import logger
+from chromadb.config import Settings
 
 class ChromaDBConnection:
     _instance = None
@@ -9,9 +10,11 @@ class ChromaDBConnection:
         if cls._instance is None:
             logger.info("Creating new ChromaDB connection...")
             cls._instance = super(ChromaDBConnection, cls).__new__(cls)
-            cls._instance.client = chromadb.PersistentClient(path=path)
+            cls._instance.client = chromadb.PersistentClient(path=path, settings=Settings(anonymized_telemetry=False))
         return cls._instance
 
     def get_collection(self, name, metadata):
         logger.info(f"Accessing collection: {name}")
-        return self.client.get_or_create_collection(name=name, metadata=metadata)
+        collection = self.client.get_or_create_collection(name=name, metadata=metadata)
+        logger.info(f"Collection size: {collection.count()}")
+        return collection
