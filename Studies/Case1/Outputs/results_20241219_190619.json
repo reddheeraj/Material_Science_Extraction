@@ -1,0 +1,105 @@
+[
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": {
+                "77 K": "highest values obtained",
+                "other temperatures": "decrease in both yield and ultimate tensile strengths"
+            },
+            "Yield Strength": {
+                "77 K": "highest values obtained",
+                "other temperatures": "monotonic decrease"
+            },
+            "Elongation to Fracture": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "The materials are single-phase, dislocation-free before tensile tests. Engineering strain is calculated as the ratio of cross-head displacement to initial specimen gauge length (12.7 mm). A minimum in ductility for FG occurs at an intermediate temperature.",
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 2",
+        "chunk_id": 15
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": "decreases with increasing temperature",
+            "Yield Strength": "increases with decreasing grain size up to 873 K",
+            "Young Modulus": null,
+            "Grain Size": {
+                "4.4lm": {
+                    "Elongation to fracture": "lower compared to coarser grain sizes",
+                    "Yield Strength": "highest increase compared to other grain sizes"
+                },
+                "50 lm": {
+                    "Elongation to fracture": "comparable with 155 lm grain size",
+                    "Yield Strength": "modest increase compared to 155 lm grain size"
+                },
+                "155lm": {
+                    "Elongation to fracture": "comparable with 50 lm grain size",
+                    "Yield Strength": "lower than 4.4 lm and 50 lm grain sizes"
+                }
+            }
+        },
+        "Additional Information": null,
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 11",
+        "chunk_id": 56
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": "high",
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "High-entropy alloy exhibits enhanced ductility at 77 K due to twinning, but yield strength increase with decreasing temperature is not explained by twinning. It may be an inherent solute effect.",
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 0",
+        "chunk_id": 2
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": {
+                "Value": 4.4,
+                "Unit": "lm"
+            }
+        },
+        "Additional Information": {
+            "Testing Conditions": [
+                {
+                    "Temperature": 77,
+                    "Unit": "lm",
+                    "Grain Size": 4.4,
+                    "Color": "black",
+                    "Method": "Work hardening rate"
+                },
+                {
+                    "Temperature": 293,
+                    "Unit": "lm",
+                    "Grain Size": 4.4,
+                    "Color": "red",
+                    "Method": "Work hardening rate"
+                },
+                {
+                    "Temperature": 473,
+                    "Unit": "lm",
+                    "Grain Size": 4.4,
+                    "Color": "green",
+                    "Method": "Work hardening rate"
+                }
+            ]
+        },
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 10",
+        "chunk_id": 54
+    }
+]

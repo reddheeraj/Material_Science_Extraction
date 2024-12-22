@@ -28,7 +28,7 @@
             }
         },
         "Additional Information": "Tests performed at temperatures up to 1073 K, with significant changes in yield strength and ultimate tensile strength observed between 77 K and room temperature. Strong temperature dependencies, with maxima occurring at liquid nitrogen temperature.",
-        "source": "Studies/Case1/Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 3",
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 3",
         "chunk_id": 18
     },
     {
@@ -42,7 +42,7 @@
             "Grain Size": null
         },
         "Additional Information": "Twinning produces high work hardening and increases ultimate tensile strength, but does not explain the increase in yield strength. Increased ductility observed at 77 K may be due to twinning providing an additional deformation mode or inherent solute effect.",
-        "source": "Studies/Case1/Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 0",
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 0",
         "chunk_id": 2
     },
     {
@@ -56,7 +56,7 @@
             "Grain Size": null
         },
         "Additional Information": "The tensile properties show a monotonic decrease in yield and ultimate tensile strengths with an increase in temperature. The elongations to fracture of all materials also decrease with temperature, except for FG which shows a minimum in ductility at an intermediate temperature.",
-        "source": "Studies/Case1/Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 2",
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 2",
         "chunk_id": 15
     },
     {
@@ -70,7 +70,7 @@
             "Grain Size": null
         },
         "Additional Information": "Tensile tests performed at various temperatures (77, 293, 473, 673, 873, 1073 K) using an Instron 4204 test rig. Tests were conducted in air for room temperature and above, and liquid nitrogen bath was used for tests at 77 K. Additional tensile specimens deformed at test temperatures of 77, 293, and 873 K with interrupted tests at various strain levels.",
-        "source": "Studies/Case1/Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 2",
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 2",
         "chunk_id": 12
     }
 ]

@@ -2,9 +2,10 @@ import os
 
 # General configurations
 CASE = "Case1"
-PAPER_DIR = f"Studies/{CASE}/Papers"
-OUTPUT_DIR = f"Studies/{CASE}/Outputs"
-QUERY_DIR = f"Studies/{CASE}/Queries"
+STUDY_DIR = "Studies"
+PAPER_DIR = os.path.join(STUDY_DIR, CASE, "Papers")
+OUTPUT_DIR = os.path.join(STUDY_DIR, CASE, "Outputs")
+QUERY_DIR = os.path.join(STUDY_DIR, CASE, "Queries")
 DB_PATH = "./chromadb"
 COLLECTION_NAME = CASE
 

@@ -65,7 +65,7 @@
             ]
         },
         "Additional Information": "The CoCrFeMnNi high-entropy alloy was produced by arc melting, drop casting and rolling. It was recrystallized to produce single-phase, fcc-structured, equiaxed microstructures with three different grain sizes.",
-        "source": "Studies/Case1/Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 11",
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 11",
         "chunk_id": 55
     },
     {
@@ -79,7 +79,7 @@
             "Grain Size": null
         },
         "Additional Information": "High-entropy alloys, multicomponent alloys, bulk metallic glasses",
-        "source": "Studies/Case1/Papers\\Deep_Neural_Network.pdf, Page no: 11",
+        "source": "Studies\\Case1\\Papers\\Deep_Neural_Network.pdf, Page no: 11",
         "chunk_id": 58
     }
 ]
