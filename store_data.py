@@ -49,22 +49,25 @@ def consolidate_to_json(results, json_file_path):
 
 def display_results(results):
     flattened_data = []
-    print(results[0])
+    # print(results[0])
     for data in results:
         row = {
             "Source": data["source"],
             "Chunk ID": data["chunk_id"],
-            "Alloy": data["Alloy"],
-            "Hardness": data["Properties"]["Hardness"],
-            "Vickers Hardness": data["Properties"]["Vickers Hardness"],
-            "Ultimate Tensile Strength": data["Properties"]["Ultimate Tensile Strength"],
-            "Yield Strength": data["Properties"]["Yield Strength"],
-            "Young Modulus": data["Properties"]["Young Modulus"],
-            "Grain Size": data["Properties"]["Grain Size"],
-            "Additional Information": data["Additional Information"]
+            "Alloy": data["Alloy"] if "Alloy" in data else None
         }
+        for key, value in data["Properties"].items():
+            row[key] = value
+        if "Additional Information" in data:
+            row["Additional Information"] = data["Additional Information"]
         flattened_data.append(row)
 
     # Convert to DataFrame
     df = pd.DataFrame(flattened_data)
+    # position the additional information column at the end
+    if "Additional Information" in df.columns:
+        cols = list(df.columns)
+        cols.remove("Additional Information")
+        cols.append("Additional Information")
+        df = df[cols]
     return df

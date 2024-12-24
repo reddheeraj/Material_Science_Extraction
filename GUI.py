@@ -6,7 +6,7 @@ from ui_functions.query_results import query_results
 from ui_functions.view_results import view_results
 
 # Streamlit app configuration
-st.set_page_config(page_title="Research Paper Processor", page_icon="🔄", layout="wide")
+st.set_page_config(page_title="Material Science Data RAG", page_icon="🔄", layout="wide")
 
 # Ensure directories exist
 if not os.path.exists(PAPER_DIR):

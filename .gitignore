@@ -5,3 +5,5 @@ papers_
 papers_test
 test_code
 profile_results.prof
+test.py
+logs/
