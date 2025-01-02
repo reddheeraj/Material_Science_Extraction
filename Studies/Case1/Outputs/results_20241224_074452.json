@@ -1,0 +1,233 @@
+[
+    {
+        "Alloy": "CoCrFeNi high-entropy alloy",
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "The article discusses the structure and mechanical properties of high-entropy alloys based on CoCrFeNi system, published in Journal of Alloys and Compounds (2014), page numbers 11\u201321. Authors: M. Hu et al.",
+        "source": "Studies\\Case1\\Papers\\Prep_and_Effect_of_Vanadium.pdf, Page no: 7",
+        "chunk_id": 37
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "High-entropy alloys; Mechanical properties; Deformation twinning; Temperature dependence. Solid solution hardening, good ductility if the solid solution phase possesses a simple crystal structure (e.g., face-centered cubic (fcc)) with a large number of slip systems.",
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 0",
+        "chunk_id": 3
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "High-entropy alloys, Mechanical properties, Deformation twinning, Yield strength, Temperature dependence",
+        "source": "Studies\\Case1\\Papers\\The_influences_of_Temperatire_and_microstructure_on_tensile_props_of_CoCrFeMnNi_HEA.pdf, Page no: 0",
+        "chunk_id": 3
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "High-entropy alloys with various elements, such as Al0.5CoCrCuFeNi and Fcc CuCoNiCrAl0.5Fe, exhibit different properties like wear resistance, high-temperature compression strength, fatigue behavior, and electrochemical passive properties.",
+        "source": "Studies\\Case1\\Papers\\Evolution_of_microstructure_mech_and_corrosion_properties_of_AlCoCrFeNi_HEA.pdf, Page no: 10",
+        "chunk_id": 37
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "High-entropy alloys (HEAs) with a face-centered cubic (fcc), duplex fcc plus body-centered cubic (bcc), and single bcc structure, showing corresponding variations in tensile properties. The fcc region has relatively low strength but extended ductility, the mixed structure region shows sharp increase in strength but reduced ductility, and the single bcc region becomes extremely brittle.",
+        "source": "Studies\\Case1\\Papers\\Effect_of_Al_addition_on_structural_evolution_and_tensile_props_of_FeCoNiCrMn_HEA.pdf, Page no: 0",
+        "chunk_id": 1
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "High Entropy Alloys (HEAs) are defined as alloys composed of five or more elements with concentrations from 5% to 35%. HEAs have a high configurational entropy that contributes to the stability of solid solutions relative to other competing phases.",
+        "source": "Studies\\Case1\\Papers\\Deep_Neural_Network.pdf, Page no: 0",
+        "chunk_id": 2
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": {
+                "Ultimate Value": "HV648.8",
+                "Unit": "HV"
+            },
+            "Vickers Hardness": {
+                "Value": "HV534",
+                "Unit": "HV"
+            },
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Compressive Strength": {
+                "Value": 3297.8,
+                "Unit": "MPa"
+            },
+            "Plastic Strain": {
+                "Value": 26.8,
+                "Unit": "%"
+            }
+        },
+        "Additional Information": null,
+        "source": "Studies\\Case1\\Papers\\Effect_of_Vanadium_addition_on_microstructure_and_properties_of_AlCoCrFeNi_HEA.pdf, Page no: 0",
+        "chunk_id": 1
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "High-entropy alloys, nanostructured high-entropy alloys with multiple principal elements: novel alloy design concepts and outcomes; microstructural development in equiatomic multicomponent alloys.",
+        "source": "Studies\\Case1\\Papers\\Composition_design_of_HEA_using_valence_electron_concentration_ductility.pdf, Page no: 8",
+        "chunk_id": 35
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "High-entropy alloys (HEAs) exhibit a significant degree of mutual solubility, tend to form simple face-centered cubic (fcc) and/or body-centered cubic (bcc) solid solutions. HEAs have unusual structural properties. Additions of certain elements into HEAs can have strong effects on the material properties.",
+        "source": "Studies\\Case1\\Papers\\Effect_of_Al_addition_on_structural_evolution_and_tensile_props_of_FeCoNiCrMn_HEA.pdf, Page no: 0",
+        "chunk_id": 2
+    },
+    {
+        "Alloy": "AlCoCrFeNiVx",
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": [
+                {
+                    "Value": 534,
+                    "Unit": "HV",
+                    "Alloy": "V0"
+                },
+                {
+                    "Value": 557.6,
+                    "Unit": "HV",
+                    "Alloy": "V0.2"
+                },
+                {
+                    "Value": 591.3,
+                    "Unit": "HV",
+                    "Alloy": "V0.5"
+                },
+                {
+                    "Value": 624.8,
+                    "Unit": "HV",
+                    "Alloy": "V0.8"
+                },
+                {
+                    "Value": 648.8,
+                    "Unit": "HV",
+                    "Alloy": "V1.0"
+                }
+            ],
+            "Ultimate Tensile Strength": [
+                {
+                    "Value": 1378.9,
+                    "Unit": "MPa",
+                    "Alloy": "V0"
+                },
+                {
+                    "Value": 1492.4,
+                    "Unit": "MPa",
+                    "Alloy": "V0.2"
+                },
+                {
+                    "Value": 1597.7,
+                    "Unit": "MPa",
+                    "Alloy": "V0.5"
+                },
+                {
+                    "Value": 1695.8,
+                    "Unit": "MPa",
+                    "Alloy": "V0.8"
+                },
+                {
+                    "Value": 1726.5,
+                    "Unit": "MPa",
+                    "Alloy": "V1.0"
+                }
+            ],
+            "Yield Strength": [
+                {
+                    "Value": 2864.9,
+                    "Unit": "MPa",
+                    "Alloy": "V0"
+                },
+                {
+                    "Value": 3297.8,
+                    "Unit": "MPa",
+                    "Alloy": "V0.2"
+                },
+                {
+                    "Value": 1907.2,
+                    "Unit": "MPa",
+                    "Alloy": "V0.5"
+                },
+                {
+                    "Value": 2097.4,
+                    "Unit": "MPa",
+                    "Alloy": "V0.8"
+                },
+                {
+                    "Value": 1867.1,
+                    "Unit": "MPa",
+                    "Alloy": "V1.0"
+                }
+            ],
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": null,
+        "source": "Studies\\Case1\\Papers\\Effect_of_Vanadium_addition_on_microstructure_and_properties_of_AlCoCrFeNi_HEA.pdf, Page no: 3",
+        "chunk_id": 13
+    }
+]
