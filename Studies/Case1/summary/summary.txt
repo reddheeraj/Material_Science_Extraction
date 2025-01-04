@@ -1,0 +1,24 @@
+It appears that you have a list of research papers related to High-Entropy Alloys (HEAs) with various additions and their effects on the material properties. I'll try to summarize the key points from these papers.
+
+**General Properties of HEAs**
+
+*   HEAs are defined as alloys composed of five or more elements with concentrations from 5% to 35%.
+*   They have a high configurational entropy that contributes to the stability of solid solutions relative to other competing phases.
+*   HEAs exhibit a significant degree of mutual solubility, tend to form simple face-centered cubic (fcc) and/or body-centered cubic (bcc) solid solutions.
+
+**Effect of Vanadium Addition**
+
+*   The addition of vanadium to AlCoCrFeNiHEA increases the hardness, ultimate tensile strength, and yield strength.
+*   The highest values obtained were 648.8 HV for hardness, 1726.5 MPa for ultimate tensile strength, and 1867.1 MPa for yield strength.
+
+**Effect of Aluminum Addition**
+
+*   The addition of aluminum to FeCoNiCrMnHEA leads to a significant increase in ductility while maintaining high strength.
+*   The fcc region has relatively low strength but extended ductility, the mixed structure region shows sharp increase in strength but reduced ductility, and the single bcc region becomes extremely brittle.
+
+**Microstructural Development**
+
+*   HEAs can form nanostructured high-entropy alloys with multiple principal elements, exhibiting novel alloy design concepts and outcomes.
+*   The addition of certain elements into HEAs can have strong effects on the material properties, such as hardness, strength, and ductility.
+
+Please note that these points are summaries based on my understanding of the provided text. If you need further clarification or would like me to elaborate on any specific point, please let me know!
