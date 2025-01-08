@@ -8,6 +8,7 @@ OUTPUT_DIR = os.path.join(STUDY_DIR, CASE, "Outputs")
 QUERY_DIR = os.path.join(STUDY_DIR, CASE, "Queries")
 DB_PATH = "./chromadb"
 COLLECTION_NAME = CASE
+SUMMARY_DIR = os.path.join(STUDY_DIR, CASE, "Summary")
 
 LOG_DIR = "logs"
 MAIN_KEYWORDS = ["single phase", "homogenized", "homogeneity", "FCC",

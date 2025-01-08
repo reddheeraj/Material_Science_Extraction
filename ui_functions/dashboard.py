@@ -3,10 +3,10 @@ import json
 import pandas as pd
 import streamlit as st
 from LLM import query_llama
-from config import STUDY_DIR, CASE, OUTPUT_DIR
+from config import STUDY_DIR, CASE, OUTPUT_DIR, SUMMARY_DIR
 
-if not os.path.exists(os.path.join(STUDY_DIR, CASE, "summary")):
-    os.makedirs(os.path.join(STUDY_DIR, CASE, "summary"))
+if not SUMMARY_DIR:
+    os.makedirs(SUMMARY_DIR)
 
 # Function to merge JSON files
 def merge_json_files(outputdir):
@@ -59,8 +59,7 @@ def summarize_data(df):
 def dashboard():
     st.title("Alloy Analytics Dashboard")
 
-    summary_dir = os.path.join(STUDY_DIR, CASE, "summary")
-    if not os.path.exists(os.path.join(summary_dir, "summary.txt")):
+    if not os.path.exists(os.path.join(SUMMARY_DIR, "summary.txt")):
         with st.spinner("Processing data..."):
 
             data = merge_json_files(OUTPUT_DIR)
@@ -69,9 +68,8 @@ def dashboard():
 
                 summary = summarize_data(df)
 
-                summary_dir = os.path.join(STUDY_DIR, CASE, "summary")
-                df.to_json(os.path.join(summary_dir, "processed_data.json"), orient="records")
-                with open(os.path.join(summary_dir, "summary.txt"), "w") as f:
+                df.to_json(os.path.join(SUMMARY_DIR, "processed_data.json"), orient="records")
+                with open(os.path.join(SUMMARY_DIR, "summary.txt"), "w") as f:
                     f.write(summary)
 
                 # Display analytics
@@ -86,11 +84,11 @@ def dashboard():
             except:
                 st.error("An Error occured.")
     else:
-        df = pd.read_json(os.path.join(summary_dir, "processed_data.json"))
+        df = pd.read_json(os.path.join(SUMMARY_DIR, "processed_data.json"))
         alloy_counts = df["Alloy"].value_counts().reset_index()
         alloy_counts.columns = ["Alloy", "Count"]
 
-        with open(os.path.join(summary_dir, "summary.txt"), "r") as f:
+        with open(os.path.join(SUMMARY_DIR, "summary.txt"), "r") as f:
             summary = f.read()
         st.subheader("Unique Alloys")
         st.table(alloy_counts)
