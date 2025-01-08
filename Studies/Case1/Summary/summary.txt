@@ -1,0 +1,20 @@
+It appears you've provided a list of research papers related to High-Entropy Alloys (HEAs). I'll help you summarize and highlight key points from these papers.
+
+**Summary of the Papers**
+
+The papers focus on various aspects of HEAs, including their mechanical properties, deformation behavior, microstructure evolution, and alloy design. Some specific topics include:
+
+1. **Mechanical Properties**: Research on tensile strength, yield strength, hardness, and ductility of HEAs.
+2. **Alloy Design**: Studies on the effects of adding different elements (e.g., Ni, Al, V) to HEA systems.
+3. **Microstructure Evolution**: Investigations into the phase transformations and microstructural changes in HEAs under various conditions.
+
+**Key Points**
+
+Some key points from these papers are:
+
+1. **Hardness over Tensile Strength Ratio**: The ratio of hardness to tensile strength is similar to that in conventional steels, indicating a promising mechanical property.
+2. **Ni Content Effect on FCC Phase**: Increasing Ni content leads to an increase in the volume fraction of the FCC phase and fracture strain.
+3. **Addition of Carbon and Oxygen**: These elements can regulate the trade-off between strength and ductility in HEAs, with carbon leading to non-cellular structures that increase ductility.
+4. **V Addition**: Vanadium promotes solid solution strengthening, grain refinement strengthening, and the formation of fine VC dispersed particles, contributing to the strengthening effect.
+
+Let me know if you'd like me to highlight any specific paper or aspect!

@@ -48,8 +48,8 @@ def summarize_data(df):
     prompt = (
         "You are an assistant designed to analyze alloy datasets. Use the following structured approach to generate a summary:\n"
         "Step 1: Identify and list all unique alloy names from the dataset.\n"
-        "Step 2: For each unique alloy, summarize the key properties (e.g., Hardness, Vickers Hardness, Yield Strength) and provide their values if available.\n"
-        "Step 3: Analyze the 'Additional Information' column and provide a concise, aggregated summary of its content.\n"
+        "Step 2: For each unique alloy (if alloy is not mentioned, group by the paper name in the source), write down the key properties (e.g., Hardness, Vickers Hardness, Yield Strength) by providing their values if available.\n"
+        "Step 3: Summarize the 'Additional Information' column and provide a concise, aggregated summary of its content.\n"
         "Step 4: Ensure that the response is organized, precise, and adheres strictly to this format without deviating.\n"
         f"\nDataset:\n{df.to_string()}"
     )
@@ -83,6 +83,26 @@ def dashboard():
                 st.write(summary)
             except:
                 st.error("An Error occured.")
+    elif os.path.exists(os.path.join(SUMMARY_DIR, "processed_data.json")) and not os.path.exists(os.path.join(SUMMARY_DIR, "summary.txt")):
+        with st.spinner("Summarizing data..."):
+            df = pd.read_json(os.path.join(SUMMARY_DIR, "processed_data.json"))
+            alloy_counts = df["Alloy"].value_counts().reset_index()
+            alloy_counts.columns = ["Alloy", "Count"]
+
+            summary = summarize_data(df)
+
+            with open(os.path.join(SUMMARY_DIR, "summary.txt"), "w") as f:
+                f.write(summary)
+
+            # Display analytics
+            st.subheader("Unique Alloys")
+            st.table(alloy_counts)
+
+            st.subheader("Property Distributions")
+            st.bar_chart(alloy_counts.set_index("Alloy"))
+
+            st.subheader("Summary")
+            st.write(summary)
     else:
         df = pd.read_json(os.path.join(SUMMARY_DIR, "processed_data.json"))
         alloy_counts = df["Alloy"].value_counts().reset_index()
