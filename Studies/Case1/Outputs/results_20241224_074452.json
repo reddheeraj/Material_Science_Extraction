@@ -84,14 +84,14 @@
         "chunk_id": 2
     },
     {
-        "Alloy": null,
+        "Alloy": "AlCoCrFeNiVx",
         "Properties": {
             "Hardness": {
                 "Ultimate Value": "HV648.8",
                 "Unit": "HV"
             },
             "Vickers Hardness": {
-                "Value": "HV534",
+                "Value": "534",
                 "Unit": "HV"
             },
             "Ultimate Tensile Strength": null,

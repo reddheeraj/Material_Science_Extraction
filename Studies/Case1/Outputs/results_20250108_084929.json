@@ -1,0 +1,148 @@
+[
+    {
+        "Alloy": "FeCoNiCrMn",
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": "Tensile fracture strength (r), as function of Vbcc for alloys within 8-11% Al content",
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "Alloys in region II, e.g., Al 8 to Al11. A good linear relationship is observed between volume fraction of bcc phase (Vbcc) and tensile fracture strength (r) when Al content is within 8-11%, reasonable interpretation for the strength increment using composite model.",
+        "source": "Studies\\Case1\\Papers\\Effect_of_Al_addition_on_structural_evolution_and_tensile_props_of_FeCoNiCrMn_HEA.pdf, Page no: 6",
+        "chunk_id": 31
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "Keywords: High-entropy alloys; Mechanical properties; Deformation twinning; Yield strength; Temperature dependence",
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 0",
+        "chunk_id": 3
+    },
+    {
+        "Alloy": "FeCoNiCrMn",
+        "Properties": {
+            "Hardness": {
+                "Value": 176,
+                "Unit": "HV"
+            },
+            "Vickers Hardness": {
+                "Value": 182,
+                "Unit": "HV"
+            },
+            "Ultimate Tensile Strength": {
+                "Value": 529,
+                "Unit": "MPa"
+            },
+            "Yield Strength": {
+                "Value": 242,
+                "Unit": "MPa"
+            },
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "The hardness over tensile strength ratio is /C243.13 \u00b1 0.39 in the current alloys, similar to that in conventional steels. The work hardening coefficient N can be calculated using the Holloman equation.",
+        "source": "Studies\\Case1\\Papers\\Effect_of_Al_addition_on_structural_evolution_and_tensile_props_of_FeCoNiCrMn_HEA.pdf, Page no: 3",
+        "chunk_id": 15
+    },
+    {
+        "Alloy": "(AlCoCrFeNi)100-xNix HEA system",
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "In an FCC phase, the volume fraction increased with increasing Ni content and fracture strain. Lattice constants increased from 0 to 4 at.% Ni but decreased beyond 4 at.%. Excessive Ni addition caused lattice distortion energy, leading to crystal transformation.",
+        "source": "Studies\\Case1\\Papers\\Composition_design_of_HEA_using_valence_electron_concentration_ductility.pdf, Page no: 6",
+        "chunk_id": 26
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": "increases with addition of carbon",
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "The addition of oxygen can regulate the trade-off between strength and ductility in HEAs. High strain hardening caused by the formation of non-cellular structures induced by carbon increases the ductility of HEAs.",
+        "source": "Studies\\Case1\\Papers\\Prep_and_Effect_of_Vanadium.pdf, Page no: 1",
+        "chunk_id": 8
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": {
+                "Value": "varies with V content, initially increases and then decreases",
+                "Unit": null
+            },
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": {
+                "Value": "refines with V addition",
+                "Unit": null
+            }
+        },
+        "Additional Information": "The addition of V promotes solid solution strengthening, grain refinement strengthening, and the formation of fine VC dispersed particles, which contribute to the strengthening effect. The increase in ductility is mainly due to the reduction in segregation of Cr.",
+        "source": "Studies\\Case1\\Papers\\Prep_and_Effect_of_Vanadium.pdf, Page no: 4",
+        "chunk_id": 26
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "HEAs (High-Entropy Alloys) tend to have extreme lattice distortion and inhomogeneous stress fields, which can impede dislocation motion and cause an increase in yield stress. FCC-based HEAs are softer than BCC counterparts due to their close-packed structure with more slip plains.",
+        "source": "Studies\\Case1\\Papers\\Evolution_of_microstructure_mech_and_corrosion_properties_of_AlCoCrFeNi_HEA.pdf, Page no: 6",
+        "chunk_id": 25
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": {
+                "Value": 6,
+                "Unit": "HV"
+            },
+            "Vickers Hardness": {
+                "Value": 58.8,
+                "Unit": "MPa"
+            }
+        },
+        "Additional Information": "For Alloys in region I and II the volume fraction of bcc phases is estimated and shown in Fig. 8a",
+        "source": "Studies\\Case1\\Papers\\Effect_of_Al_addition_on_structural_evolution_and_tensile_props_of_FeCoNiCrMn_HEA.pdf, Page no: 6",
+        "chunk_id": 29
+    },
+    {
+        "Alloy": null,
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "The text mentions that research efforts have tended to be application driven and directed towards finding new alloy compositions with promising mechanical properties. It also highlights the importance of structural materials.",
+        "source": "Studies\\Case1\\Papers\\Influences_of_temp_and_microstructure.pdf, Page no: 0",
+        "chunk_id": 4
+    }
+]
