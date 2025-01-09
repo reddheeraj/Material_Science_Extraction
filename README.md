@@ -1,6 +1,6 @@
 # **Material Science Data Extraction**
 
-A Langchain-based RAG to extract details from research papers
+A Langchain-based RAG to extract details from research papers and present them in the required format.
 
 ## **Overview**
 
