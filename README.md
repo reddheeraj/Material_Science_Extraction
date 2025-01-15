@@ -24,6 +24,8 @@ This project uses Retrieval-Augmented Generation (RAG) to efficiently process re
 
 > Install **Ollama** from [here](https://ollama.com/download) and make sure to run the application. The local instance will run in the background.
 
+> Run `ollama pull nomic-embed-text` and `ollama pull <llm model name>` in a terminal to set up the embedding and llm models on your device.
+
 > Research papers are stored in a directory named **papers**.
 
 ## Folder Structure
