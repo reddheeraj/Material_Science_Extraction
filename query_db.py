@@ -66,7 +66,7 @@ def process_query(query):
     for meta, prop in zip(metadatas, properties):
         # print("meta: ", meta)
     #     # print("prop: ", prop)
-        results.append({"source": f"{meta["source"]}, Page no: {meta["page"]}", "chunk_id": meta["chunk_id"], "Properties": prop})
+        results.append({"source": f"{meta['source']}, Page no: {meta['page']}", "chunk_id": meta["chunk_id"], "Properties": prop})
     
     # Output results
     for result in results:

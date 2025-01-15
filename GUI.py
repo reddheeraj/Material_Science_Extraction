@@ -38,7 +38,7 @@ menu_dict = {
 
 # Footer
 st.sidebar.markdown("---")
-st.sidebar.markdown("**Developed by Tau Group - Dheeraj**")  
+st.sidebar.markdown("**Developed by Tau Group**")  
                 
 def main():
     if menu:
