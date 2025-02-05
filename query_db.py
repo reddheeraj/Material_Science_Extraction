@@ -1,15 +1,44 @@
-import chromadb
 from LLM import get_embeddings
-from chromadb.config import Settings
 from db_connection import ChromaDBConnection
 from config import DB_PATH, QUERY_LIMIT, COLLECTION_NAME, HNSW_SPACE, OUTPUT_DIR
 from logger import logger
 from LLM import refine_with_llm
+from typing import List, Dict
+import re
+import json
 
 import os
 import click
 from store_data import consolidate_to_json
 from datetime import datetime
+
+def parse_json_blocks(texts: List[str]) -> List[Dict]:
+    """
+    Extract and parse JSON data from text blocks formatted with ```json ... ```
+    
+    Args:
+        texts: List of strings containing potential JSON blocks
+        
+    Returns:
+        List of parsed JSON dictionaries
+    """
+    parsed_data = []
+    json_pattern = re.compile(r'```json(.*?)```', re.DOTALL)
+    
+    for text in texts:
+        # Find all JSON blocks in the text
+        json_blocks = json_pattern.findall(text)
+        
+        for json_str in json_blocks:
+            try:
+                # Clean and parse the JSON
+                cleaned = json_str.strip()
+                parsed = json.loads(cleaned)
+                parsed_data.append(parsed)
+            except json.JSONDecodeError as e:
+                print(f"Error parsing JSON: {e}\nProblematic JSON:\n{json_str}")
+                
+    return parsed_data
 
 
 def query_relevant_chunks(query):
@@ -61,6 +90,10 @@ def process_query(query):
     # print("properties: ", properties)
     # properties = ['a', 'b', 'c']
 
+    # add a properties clean up function here
+    properties = parse_json_blocks(properties)
+
+    
     # Combine results
     results = []
     for meta, prop in zip(metadatas, properties):
@@ -68,11 +101,7 @@ def process_query(query):
     #     # print("prop: ", prop)
         results.append({"source": f"{meta['source']}, Page no: {meta['page']}", "chunk_id": meta["chunk_id"], "Properties": prop})
     
-    # Output results
-    for result in results:
-        print(f"Source: {result['source']}, Chunk: {result['chunk_id']}")
-        print(f"Properties:\n{result['Properties']}\n")
-    
+        
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_file = os.path.join(OUTPUT_DIR, f"results_{timestamp}.json").replace("'", "\"").strip()
     results = consolidate_to_json(results, output_file)

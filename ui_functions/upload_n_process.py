@@ -21,12 +21,14 @@ def upload_n_process():
         st.success(f"Uploaded {len(uploaded_files)} file(s) successfully.")
 
     if st.button("Process Files"):
-        total_batches = mp.Value('i', 0)
-        progress = mp.Value("d", 0)
+        ctx = mp.get_context("spawn")
+        manager = ctx.Manager()
+        total_batches = manager.Value('i', 0)
+        progress = manager.Value("d", 0)
         with st.spinner("Indexing papers into the database. This might take a while..."):
-            queue = mp.Queue()
-            producer = mp.Process(target=pdf_file_processor, args=(PAPER_DIR, BATCH_SIZE, queue, total_batches))
-            consumer = mp.Process(target=append_to_database, args=(queue, progress, total_batches))
+            queue = ctx.Queue(maxsize=100)
+            producer = ctx.Process(target=pdf_file_processor, args=(PAPER_DIR, BATCH_SIZE, queue, total_batches))
+            consumer = ctx.Process(target=append_to_database, args=(queue, progress, total_batches))
 
             producer.start()
             consumer.start()

@@ -1,0 +1,98 @@
+[
+    {
+        "Alloy": "AlCoCrFe-NiV",
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": "HV534 to HV648.8",
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": "1378.9 MPa to 1726.5 MPa, up to 3297.8 MPa for V0.2 alloy",
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "AlCoCrFeNiV alloys exhibit increased yield strength and hardness with higher V content, attributed to solid solution strengthening. The fracture strength reached a maximum of 3297.8 MPa for the V0.2 alloy.",
+        "source": "Effect_of_Vanadium_addition_on_microstructure_and_properties_of_AlCoCrFeNi_HEA.pdf, Page no: 5",
+        "chunk_id": 24
+    },
+    {
+        "Alloy": "(AlCoCrFeNi)j00-xNix and (CoCrCuFeNi)j00-xMo",
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": "Mentioned but no specific value provided",
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "The text discusses mechanical properties including fracture strain, lattice constants, FCC phase fraction, and BCC phase fraction. Yield strength is mentioned in relation to different Mo content. Lattice constants are also discussed for both HEA systems. The term 'VEC' likely refers to Vickers Hardness.",
+        "source": "Composition_design_of_HEA_using_valence_electron_concentration_ductility.pdf, Page no: 7",
+        "chunk_id": 35
+    },
+    {
+        "Alloy": "AlCoCrFeNiV",
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": [
+                534,
+                557.6,
+                591.3,
+                624.8,
+                648.8
+            ],
+            "Ultimate Tensile Strength": [
+                2864.9,
+                3297.8,
+                1907.2,
+                2097.4,
+                1867.1
+            ],
+            "Yield Strength": [
+                1378.9,
+                1492.4,
+                1597.7,
+                1695.8,
+                1726.5
+            ],
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "The text discusses the effects of various thermodynamic factors (enthalpy, entropy, electronegativity differences) on the phase stability and formation of solid solutions in AlCoCrFeNiV alloys. The document table provides compressive properties (oy - Yield Strength, Op - Ultimate Tensile Strength), elongation percentage (Op %), and Vickers Hardness (HV) for different alloy variants (vo, V0.2, V0.5, V0.8, V1.0).",
+        "source": "Effect_of_Vanadium_addition_on_microstructure_and_properties_of_AlCoCrFeNi_HEA.pdf, Page no: 4",
+        "chunk_id": 18
+    },
+    {
+        "Alloy": "AlCoCrFeNiV (x values in molar ratio, x = 0, 0.2, 0.5, 0.8, 1.0)",
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": "HV648.8",
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": null,
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "All alloys displayed a crystalline structure of simple body-centered cubic (BCC). Cr and Fe elements segregated to the center of grains, while Al and Ni segregated to other areas. With increasing V content beyond x = 0.5, homogenized polycrystalline grain was obtained. The compressive strength and plastic strain were as high as 3297.8 MPa and 26.8%, respectively. Fine nanoscale spinodal decomposition microstructure contributed to high fracture strength. Vickers hardness increased from HV534 to HV648.8 with increasing V content. Solid-solution strengthening of the BCC matrix was noted.",
+        "source": "Effect_of_Vanadium_addition_on_microstructure_and_properties_of_AlCoCrFeNi_HEA.pdf, Page no: 1",
+        "chunk_id": 4
+    },
+    {
+        "Alloy": "AlCoCrFeNi",
+        "Properties": {
+            "Hardness": null,
+            "Vickers Hardness": null,
+            "Ultimate Tensile Strength": null,
+            "Yield Strength": {
+                "Value": [
+                    1.31,
+                    1.17,
+                    1.07,
+                    1.13
+                ],
+                "Unit": "GPa"
+            },
+            "Young Modulus": null,
+            "Grain Size": null
+        },
+        "Additional Information": "The text discusses the compression properties of AlCoCrFeNi alloys aged at various temperatures for 168 hours. The yield strength (Oy), ultimate tensile strength (Omax), and elongation percentage (Ep) are provided in Table 1. The alloy exhibits solid solution strengthening due to the high concentration of solute atoms, leading to increased strength. Lattice distortion and stress fields interact with dislocations, contributing to higher yield stress.",
+        "source": "Evolution_of_microstructure_mech_and_corrosion_properties_of_AlCoCrFeNi_HEA.pdf, Page no: 7",
+        "chunk_id": 33
+    }
+]

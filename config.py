@@ -6,7 +6,8 @@ STUDY_DIR = "Studies"
 PAPER_DIR = os.path.join(STUDY_DIR, CASE, "Papers")
 OUTPUT_DIR = os.path.join(STUDY_DIR, CASE, "Outputs")
 QUERY_DIR = os.path.join(STUDY_DIR, CASE, "Queries")
-DB_PATH = "./chromadb"
+TABLES_DIR = os.path.join(STUDY_DIR, CASE, "Tables")
+DB_PATH = "./chromadb_2"
 COLLECTION_NAME = CASE
 SUMMARY_DIR = os.path.join(STUDY_DIR, CASE, "Summary")
 
@@ -23,7 +24,7 @@ PROPERTIES_TO_EXTRACT = [
 ]
 
 # LLM configurations
-LLM_MODEL = "llama3.1:latest"
+LLM_MODEL = "deepseek-r1:14b"
 EMBEDDING_MODEL = "nomic-embed-text"
 
 # Text splitter configurations

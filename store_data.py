@@ -19,24 +19,16 @@ def consolidate_to_json(results, json_file_path):
             "source": response['source'],
             "chunk_id": response['chunk_id']
         }
-        response_text = response['Properties']
+        response_properties = response['Properties']
         try:
-            # Isolate the JSON part (handle responses with extra text)
-            json_match = re.search(r"\{.*\}", response_text, re.DOTALL)
-            if not json_match:
-                print(f"Could not find JSON in response: {response_text}")
-                logger.warning(f"Could not find JSON in response: {response_text}")
-                continue
-
-            # Parse the extracted JSON
-            json_data = json.loads(json_match.group())
-            # print("json data = ", json_data)
-            json_data.update(new_info)
-
-            consolidated_data.append(json_data)
+            if isinstance(response_properties, dict):  # Ensure it's a dict
+                response_properties.update(new_info)
+                consolidated_data.append(response_properties)
+            else:
+                logger.warning(f"Expected dictionary for Properties, but got {type(response_properties)}")
         except Exception as e:
             print(f"Error processing response: {response}\n{e}")
-            logger.error(f"Error processing response: {response_text}\n{e}")
+            logger.error(f"Error processing response: {response}\n{e}")
 
     # # Write the consolidated data to a JSON file
     with open(json_file_path, "w", encoding="utf-8") as json_file:

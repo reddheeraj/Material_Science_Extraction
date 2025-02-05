@@ -1,10 +1,12 @@
 __pycache__
 chromadb
-chromadb2
+chromadb_2
 chromadb_test
 papers_
 papers_test
+test_papers
 test_code
 profile_results.prof
 test.py
 logs/
+Tables

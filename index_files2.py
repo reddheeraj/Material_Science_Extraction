@@ -1,66 +1,89 @@
-import os
-import time
+import deepdoctection as dd
+import pandas as pd
+from io import StringIO
+from IPython.core.display import HTML
+from langchain_core.documents import Document
 from logger import logger
-import multiprocessing as mp
-from LLM import get_embeddings
-from db_connection import ChromaDBConnection
-from langchain_community.document_loaders import PyPDFLoader
+import os
+from config import CHUNK_SIZE, CHUNK_OVERLAP, BATCH_SIZE, DB_PATH, COLLECTION_NAME, HNSW_SPACE, PAPER_DIR, TABLES_DIR
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from config import PAPER_DIR, DB_PATH, COLLECTION_NAME, CHUNK_OVERLAP, CHUNK_SIZE, HNSW_SPACE, BATCH_SIZE
-
-def transform_chunk(chunks):
-    for chunk in chunks:
-        chunk.page_content = str(chunk.page_content).strip()
-        if not chunk.page_content:
-            chunks.remove(chunk)
-    return chunks
-
+import multiprocessing as mp
+from db_connection import ChromaDBConnection
+from LLM import get_embeddings
 
 def pdf_file_processor(folder_path, batch_size, queue, total_batches):
     logger.info("Starting PDF file processing...")
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
+    
     try:
-
-        # List all files
         files = [f for f in os.listdir(folder_path) if f.endswith(".pdf")]
         batch_count = 0
 
         for file in files:
             pdf_path = os.path.join(folder_path, file)
-            print(f"Processing file: {file}")
             logger.info(f"Processing file: {file}")
-            
-            # Load and split the PDF into chunks
-            reader = PyPDFLoader(pdf_path)
-            pages = reader.load()
-            chunks = text_splitter.split_documents(pages)
 
-            # Prepare batches for the queue
+            # Initialize deepdoctection analyzer
+            analyzer = dd.get_dd_analyzer()
+            df = analyzer.analyze(path=pdf_path)
+            df.reset_state()
+            doc = iter(df)
+
+            # Prepare directories for tables
+            paper_name = os.path.splitext(file)[0]
+            tables_paper_dir = os.path.join(TABLES_DIR, paper_name)
+            os.makedirs(tables_paper_dir, exist_ok=True)
+
+            # Process each page
+            all_docs = []
+            for page_num, page in enumerate(doc, start=1):
+                # Extract text from page (adjust based on deepdoctection's structure)
+                text = page.text  # Verify the correct attribute/method for text extraction
+
+                # Create Document with metadata
+                metadata = {'source': file, 'page': page_num}
+                all_docs.append(Document(page_content=text, metadata=metadata))
+
+                # Extract and save tables
+                if page.tables:
+                    page_tables_dir = os.path.join(tables_paper_dir, f"page_{page_num}")
+                    os.makedirs(page_tables_dir, exist_ok=True)
+
+                    for table_idx, table in enumerate(page.tables):
+                        try:
+                            html_str = str(HTML(table.html).data)
+                            df_table = pd.read_html(StringIO(html_str))[0]
+                            csv_path = os.path.join(page_tables_dir, f"table_{table_idx}.csv")
+                            df_table.to_csv(csv_path, index=False)
+                        except Exception as e:
+                            logger.error(f"Error processing table {table_idx} on page {page_num}: {e}")
+
+            # Split each page's text into chunks
+            chunks = text_splitter.split_documents(all_docs)
+
+            # Prepare batches
             documents, metadatas, ids = [], [], []
             for i, chunk in enumerate(chunks):
+                chunk_metadata = chunk.metadata.copy()
+                chunk_metadata['chunk_id'] = i
                 documents.append(chunk.page_content)
-                chunk.metadata['chunk_id'] = i
-                metadatas.append(chunk.metadata)
-                ids.append(f"{file}_{i}") ## use uuid instead
+                metadatas.append(chunk_metadata)
+                ids.append(f"{file}_{i}")
 
                 if len(ids) >= batch_size:
                     queue.put((documents, metadatas, ids))
                     documents, metadatas, ids = [], [], []
                     batch_count += 1
-                    print("Batch count: ", batch_count)
 
-            # Add any remaining chunks
+            # Add remaining chunks
             if documents:
                 queue.put((documents, metadatas, ids))
                 batch_count += 1
 
         total_batches.value = batch_count
-        
-        # Signal end of production
         queue.put(None)
         logger.info("File processing complete.")
     except Exception as e:
-        print(f"Error in producer: {e}")
         logger.error(f"Error in producer (file processing): {e}")
         queue.put(None)
 
@@ -80,7 +103,7 @@ def append_to_database(queue, progress, total_batches, use_cuda=False):
         # device = "cuda" if use_cuda else "cpu"
     try:    
         while True:
-            batch = queue.get(block=True, timeout=30)
+            batch = queue.get(block=True)
             if batch is None:
                 print("Consumer received stop signal")
                 logger.info("Received stop signal.")

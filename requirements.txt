@@ -5,3 +5,9 @@ langchain-text-splitters==0.3.2
 streamlit==1.40.0
 streamlit-option-menu==0.4.0
 langchain_community==0.3.14
+pypdf==5.2.0
+matplotlib
+torch
+torchvision
+deepdoctection
+lxml
