@@ -3,7 +3,7 @@ import shutil
 import os
 import multiprocessing as mp
 import time
-from index_files import pdf_file_processor, append_to_database
+from index_files2 import pdf_file_processor, append_to_database
 from logger import logger
 from config import PAPER_DIR, BATCH_SIZE
 

@@ -1,7 +1,7 @@
 import streamlit as st
 from logger import logger
 import click
-from query_db import process_query
+from query_db2 import process_query
 from store_data import display_results
 
 def query_results():
